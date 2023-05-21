@@ -1,0 +1,161 @@
+.h1 {
+  font-weight: ROBOTO;
+  font-size: 30px;
+  color:white;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:gray;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  
+  color: black;
+  text-align: right;
+  padding: 60px 60px;
+  text-decoration: none;
+  border-right: 1px solid black;
+  size:60px;
+}
+
+li a:hover:not(.active) {
+  background-color:white;
+}
+
+}
+
+ 
+
+.header1{
+    text-align:center;
+    padding:10px;
+    color:white;
+    font-size:30px; 
+    background-color:black;
+    font-weight:ROBOTO:
+    padding:10px;
+
+	padding-bottom:1px;
+	animation:fadein 6s forwards;
+    opacity:0;
+}
+
+.QUOTES{
+    text-align:left;
+    padding:20px;
+    color:darkslategray;
+    font-size:50px; 
+    background-color:white;
+    font-weight:ROBOTO:
+    padding-bottom:20px;
+	animation:fadein 6s forwards;
+    opacity:0;
+
+
+@keyframes fadein{
+   
+   0%{
+
+   opacity: 0;
+}
+  100%{
+    opacity: 1;
+} 
+}
+
+}
+
+.PRACTICE{
+    text-align:left;
+    padding:12px;
+    color:cadetblue;
+    font-size:16px; 
+    background-color:black;
+    font-weight:ROBOTO:
+    padding-bottom 1px;
+    animation:fadein 6s forwards;
+    opacity:0;
+}
+@keyframes fadein{
+   
+   0%{
+
+   opacity: 0;
+}
+  100%{
+    opacity: 1;
+} 
+}
+
+   .container {
+     text-align:left;
+     padding:20px;
+     color:GRAY;
+     font-size:16px; 
+     background-color: black;
+     font-weight:ROBOTO:
+     padding-bottom: 1px;  
+	 padding-top:2 	px;
+	 border: 1px solid GRAY;
+    }
+   
+   .container h2 {
+     text-align:center;
+     text-align:left;
+     padding:20px;
+     color:GRAY;
+     font-size:16px; 
+     background-color:black;
+     font-weight:ROBOTO:
+     padding-bottom:1px;	 
+	 font-size: 5 px;
+    
+	}
+    
+	.container input[type="text"],
+    .container input[type="password"] {		
+	 width: 20;
+     padding: 20px;
+     text-align:center;
+     text-align:center;
+     
+      padding:12px;
+      color:white;
+      font-size:16px; 
+      background-color:darkslategray;
+      font-weight:ROBOTO:
+      padding-bottom:20px;
+      border: 1px solid black;
+    }
+    .container button {
+      width: 100%;
+      padding: 50x;
+      background-color: GRAY;
+      color: black;
+      border: 1px solid dimgray;
+	  transition-property: width;	
+	  text-align:center;
+    
+      padding:12px;
+      color:GRAY;
+      font-size:16px; 
+      background-color:black;
+      font-weight:ROBOTO:
+      padding-bottom:20px;
+      transition-duration: 1s;
+}
+
+    .box:hover {
+      width: 200px;
+}
+    }
