@@ -2,17 +2,7 @@
   font-weight: ROBOTO;
   font-size: 30px;
   color:white;
-  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-
+ 
 ul {
   list-style-type: none;
   margin: 0;
