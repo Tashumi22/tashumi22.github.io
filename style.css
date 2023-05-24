@@ -76,7 +76,7 @@ li a:hover:not(.active) {
 
 .PRACTICE{
     text-align:center;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 1px 1px 1px red;
     padding:12px;
     color:cadetblue;
     font-size:16px; 
